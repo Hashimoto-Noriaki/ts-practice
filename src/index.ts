@@ -14,3 +14,4 @@ function square2(n: number): number {
 }
 
 console.log(`${square(4)}`)
+//16
