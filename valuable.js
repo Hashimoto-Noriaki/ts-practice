@@ -9,3 +9,7 @@ var product = {
     price: 300,
 };
 console.log(product);
+product.name = 'みかん';
+console.log(product.name);
+product.price = 300;
+console.log(product.price);
