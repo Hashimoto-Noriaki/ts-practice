@@ -25,3 +25,12 @@ console.log(product.name)
 
 product.price = 300
 console.log(product.price)
+
+const outputProduct = (name:string, price:number): void => {
+    console.log('やあ')
+    console.log(`${name}は${price}円です。`)
+}
+
+outputProduct('みかん',400)
+outputProduct('桃',500)
+outputProduct('ブドウ',700)
