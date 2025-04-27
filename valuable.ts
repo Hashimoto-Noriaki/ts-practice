@@ -34,3 +34,7 @@ const outputProduct = (name:string, price:number): void => {
 outputProduct('みかん',400)
 outputProduct('桃',500)
 outputProduct('ブドウ',700)
+
+let userAge = 40
+let userType: string = userAge > 20 ? "adult" : "child";
+console.log(userType);
