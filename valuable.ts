@@ -8,6 +8,11 @@ let isActive: boolean = true;
 
 let color: string | undefined;
 
+type Product = {
+    name:string;
+    price:number;
+}
+
 let product: {name:string,price:number} = {
     name:'りんご',
     price:300,
