@@ -38,3 +38,15 @@ outputProduct('ブドウ',700)
 let userAge = 40
 let userType: string = userAge > 20 ? "adult" : "child";
 console.log(userType);
+
+let age:number = 25
+
+if(age >= 19){
+    console.log("大人")
+} else if(age >=16 && 18 <= age){
+    console.log("高校生")
+} else if(age >= 13 && 15 <= age){
+    console.log("中学生")
+} else {
+    console.log("子供")
+}
