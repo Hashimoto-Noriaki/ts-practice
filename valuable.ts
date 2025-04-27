@@ -59,3 +59,9 @@ for(let a = 0; a < 5; a++){
 // 2
 // 3
 // 4
+
+function greet(name:string): void {
+    console.log(`やあ、${name}です。`)
+}
+
+greet('ポチ');
