@@ -50,3 +50,12 @@ if(age >= 19){
 } else {
     console.log("子供")
 }
+
+for(let a = 0; a < 5; a++){
+    console.log(a)
+}
+// 0
+// 1
+// 2
+// 3
+// 4
